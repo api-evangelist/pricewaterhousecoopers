@@ -1,0 +1,132 @@
+aid: pricewaterhousecoopers
+name: PwC (PricewaterhouseCoopers)
+description: >-
+  PricewaterhouseCoopers (PwC) is one of the Big Four professional services
+  firms, with approximately 370,000 staff across a global network of member
+  firms coordinated by PricewaterhouseCoopers International Limited (PwCIL).
+  PwC organizes delivery across three primary service lines — Assurance
+  (audit), Tax (tax compliance, planning, and reporting), and Advisory
+  (consulting, deals, and risk). The firm operates proprietary technology
+  platforms including PwC Halo (a suite of data analytics tools used to
+  support audit engagements), the Trusted AI initiative (PwC's responsible-AI
+  governance and assurance framework), and ProEdge (a workforce upskilling
+  platform). In April 2024 PwC announced a multi-year alliance with OpenAI
+  positioning the firm as both OpenAI's largest customer and its first
+  reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI
+  consulting practice. PwC's research and insights surface — pwc.com/insights,
+  the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey,
+  the Money Tree report, and regional industry outlooks — is the firm's
+  primary public-facing knowledge product. PwC does not publish a public
+  developer portal, OpenAPI specifications, partner API documentation, or a
+  GitHub organization at the corporate level. The github.com/pwc handle is
+  held by an unrelated individual user (Patrick Clearwater). Any technical
+  integrations with PwC platforms are arranged through engagement contracts
+  and the PwC Technology Consulting practice rather than through self-service
+  developer credentials. PwC's content distribution is reader-facing
+  (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no
+  documented public RSS feed endpoint exposing news, press releases, or
+  insights as a syndication contract.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Consulting
+  - Audit
+  - Assurance
+  - Tax
+  - Advisory
+  - Professional Services
+  - Big Four
+  - Risk
+  - Deals
+  - Technology
+  - AI
+  - Generative AI
+  - Research
+  - Insights
+  - Industry Analysis
+  - ESG
+  - Workforce
+url: https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+x-no-public-api: true
+x-no-public-api-reason: >-
+  PwC does not publish a public developer portal, OpenAPI specs, partner API
+  documentation, or a corporate GitHub organization. Proprietary platforms
+  (PwC Halo audit analytics, Trusted AI, ProEdge) are surfaced to clients
+  through engagement teams rather than as self-service developer APIs.
+  Technical integrations are arranged through engagement contracts and PwC
+  Technology Consulting.
+common:
+  - type: Website
+    url: https://www.pwc.com/
+  - type: About
+    url: https://www.pwc.com/gx/en/about.html
+  - type: Services
+    url: https://www.pwc.com/us/en/services.html
+  - type: Industries
+    url: https://www.pwc.com/us/en/industries.html
+  - type: KnowledgeCenter
+    name: PwC Insights
+    url: https://www.pwc.com/us/en/library.html
+  - type: KnowledgeCenter
+    name: Global Insights
+    url: https://www.pwc.com/gx/en/issues.html
+  - type: Research
+    name: Global CEO Survey
+    url: https://www.pwc.com/gx/en/issues/c-suite-insights/ceo-survey.html
+  - type: Research
+    name: Hopes and Fears Survey
+    url: https://www.pwc.com/gx/en/issues/workforce/hopes-and-fears.html
+  - type: Product
+    name: PwC Halo
+    url: https://www.pwc.com/gx/en/audit-services/the-future-of-audit/halo.html
+  - type: Product
+    name: ProEdge
+    url: https://www.pwc.com/us/en/products/proedge.html
+  - type: Hub
+    name: Trusted AI
+    url: https://www.pwc.com/us/en/tech-effect/ai-analytics/responsible-ai.html
+  - type: Partner
+    name: OpenAI Alliance
+    url: https://www.pwc.com/us/en/about-us/newsroom/press-releases/2024/pwc-and-openai-form-strategic-alliance.html
+  - type: News
+    name: US Newsroom
+    url: https://www.pwc.com/us/en/about-us/newsroom.html
+  - type: News
+    name: Global Press Room
+    url: https://www.pwc.com/gx/en/news-room.html
+  - type: PressRelease
+    url: https://www.pwc.com/us/en/about-us/newsroom/press-releases.html
+  - type: Newsletter
+    name: Email Subscriptions
+    url: https://www.pwc.com/us/en/library/take-on-tomorrow/subscribe.html
+  - type: Podcast
+    name: Take on Tomorrow
+    url: https://www.pwc.com/gx/en/issues/take-on-tomorrow.html
+  - type: YouTube
+    url: https://www.youtube.com/@pwc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pwc
+  - type: X
+    url: https://x.com/PwC
+  - type: Facebook
+    url: https://www.facebook.com/PwC
+  - type: Careers
+    url: https://www.pwc.com/gx/en/careers.html
+  - type: ContactUs
+    url: https://www.pwc.com/gx/en/contacts.html
+  - type: Compliance
+    name: Global Annual Review
+    url: https://www.pwc.com/gx/en/about/global-annual-review.html
+  - type: Legal
+    url: https://www.pwc.com/gx/en/legal-notices.html
+  - type: PrivacyPolicy
+    url: https://www.pwc.com/gx/en/legal-notices/privacy.html
+  - type: TermsOfService
+    url: https://www.pwc.com/gx/en/legal-notices/terms-of-use.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
