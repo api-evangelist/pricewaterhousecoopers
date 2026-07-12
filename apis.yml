@@ -60,6 +60,8 @@ x-no-public-api-reason: >-
   Technical integrations are arranged through engagement contracts and PwC
   Technology Consulting.
 common:
+  - type: DomainSecurity
+    url: security/pricewaterhousecoopers-domain-security.yml
   - type: Website
     url: https://www.pwc.com/
   - type: About
