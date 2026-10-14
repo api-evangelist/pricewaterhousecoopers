@@ -15,19 +15,6 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
-- slug: pricewaterhousecoopers-guidewire-own
-  label: Guidewire (own)
-  partner: guidewire
-  partner_name: Guidewire (own)
-  category: Extensions; Rating & Pricing; PolicyCenter;Product Models (APD)
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://marketplace.guidewire.com/product/01tPW00000KABY9YAP/01tPW00000KABY9YAP
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: pricewaterhousecoopers-fdx-financial-data-exchange
   label: FDX (Financial Data Exchange)
   partner: fdx
@@ -52,5 +39,18 @@
     matched_by: domain:pwc.com
     detected_by: sweep-fdx.py
     detected: '2026-10-14'
+  status: not-a-workflow
+  arazzo: null
+- slug: pricewaterhousecoopers-guidewire-own
+  label: Guidewire (own)
+  partner: guidewire
+  partner_name: Guidewire (own)
+  category: Extensions; Rating & Pricing; PolicyCenter;Product Models (APD)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.guidewire.com/product/01tPW00000KABY9YAP/01tPW00000KABY9YAP
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
