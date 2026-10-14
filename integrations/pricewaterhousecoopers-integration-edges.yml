@@ -1,6 +1,7 @@
 generated: '2026-10-13'
 method: searched
 checked:
+- guidewire/integrations/guidewire-integration-edges.yml
 - https://azuremarketplace.microsoft.com/
 marketplace_apps: []
 edges:
@@ -19,3 +20,50 @@ edges:
   seller_name: Pricewaterhousecoopers LLP
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Guidewire (own)
+  partner: guidewire
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.guidewire.com/product/01tPW00000KABY9YAP/01tPW00000KABY9YAP
+  mirror_of: guidewire/integrations/guidewire-integration-edges.yml
+  apps:
+  - USA Employment Practices Liability Product Model by PwC
+  - USA Maritime Employers Liability Product Model by PwC
+  - General Liability Q&B Digital Experience Template by PwC
+  - Commercial Umbrella Quote and Buy Digital Experience Template by PwC
+  - Policy Contingency Autopilot Workflow Template by PwC
+  - PwC Gig Insurance Accelerator for PolicyCenter
+  - USA Workers' Compensation Quote & Buy Digital Experience Template by PwC
+  - USA Medical Malpractice Product Model by PwC
+  - USA Commercial Output Program Product Model by PwC
+  - USA Inland Marine Insurance Product Model by PwC
+  - UK Directors & Officers Product Model by PwC
+  - UK Commercial Combined Product Model by PwC
+  - BOP Quote & Buy Journey Digital Experience Template by PwC
+  - Workers' Compensation FROI Digital Experience Template by PwC
+  - PwC Accelerator for Risk Detect for ClaimCenter
+  - USA Cyber Insurance Product Model by PwC
+  - USA Excess and Surplus Product Model by PwC
+  - USA Membership Product Model by PwC
+  - USA Farm Umbrella Product Model by PwC
+  - USA Farm Product Model by PwC
+  - CDA Adaptor by PwC
+  - USA Builders Risk Product Model by PwC
+  - PwC Accelerator for Microsoft Dynamics 365 for InsuranceSuite
+  - North America Parametric Product Model by PwC
+  - PwC Claims Triage Agent on Guidewire Agentic Framework
+  listing_count: 26
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Extensions; Rating & Pricing; PolicyCenter;Product Models (APD)
+  badges:
+  - GO Products
+  - 'Partner tier: Global Strategic'
+  - Ready for Guidewire
+source:
+- guidewire/integrations/guidewire-integration-edges.yml
