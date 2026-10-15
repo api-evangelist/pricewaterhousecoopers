@@ -3,7 +3,10 @@ method: searched
 checked:
 - guidewire/integrations/guidewire-integration-edges.yml
 - https://azuremarketplace.microsoft.com/
+- https://peppol.org/members/peppol-certified-service-providers/
 - https://registry.financialdataexchange.org/
+- https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees
+- https://www.streamlinedsalestax.org/certified-service-providers/certified-service-providers-list
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -90,5 +93,61 @@ edges:
   - GO Products
   - 'Partner tier: Global Strategic'
   - Ready for Guidewire
+- partner_name: OpenPeppol (certified service providers)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://peppol.org/members/peppol-certified-service-providers/
+  category: Peppol service provider
+  channel: standard-directory
+  relationship: standard-participant
+  contract_reference:
+    register: OpenPeppol certified service providers (peppol.org/members/peppol-certified-service-providers)
+    spec_file: null
+    standard: Peppol
+    role: peppol-certified-service-provider
+    registered_name: PricewaterhouseCoopers Magyarország Kft.
+    legal_name: PricewaterhouseCoopers Magyarország Korlátolt Felelősségű Társaság
+    matched_domain: pwc.com
+    matched_by: domain
+    domain_source: contact email domain
+    peppol_authorities:
+    - OpenPeppol
+    countries:
+    - Hungary
+    certified_products:
+    - product: Access Point
+      lapsed: false
+    signal_note: certified_products = one entry per Peppol-certified SERVICE (Access Point, SMP); authorities and
+      countries are context, never read
+    detected_by: sweep-einvoicing-tax.py
+    detected: '2026-10-15'
+  detected_by: sweep-einvoicing-tax.py
+  first_seen: '2026-10-15'
+- partner_name: OpenPeppol (certified service providers)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://peppol.org/members/peppol-certified-service-providers/
+  category: Peppol service provider
+  channel: standard-directory
+  relationship: compatible
+  shape: peppol
+  evidence_kind: conformance-register
+  degree: certified
+  report_only: true
+  contract_reference:
+    register: OpenPeppol certified service providers (peppol.org/members/peppol-certified-service-providers)
+    spec_file: null
+    standard: Peppol
+    role: peppol-certified-service-provider
+    registered_name: PricewaterhouseCoopers Magyarország Kft.
+    matched_domain: pwc.com
+    detected_by: sweep-einvoicing-tax.py
+    detected: '2026-10-15'
+  detected_by: sweep-einvoicing-tax.py
+  first_seen: '2026-10-15'
 source:
 - guidewire/integrations/guidewire-integration-edges.yml
