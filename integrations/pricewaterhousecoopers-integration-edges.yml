@@ -2,13 +2,18 @@ generated: '2026-10-13'
 method: searched
 checked:
 - guidewire/integrations/guidewire-integration-edges.yml
+- https://api.appexchange.salesforce.com/recommendations/v3/listings?type=consultants&pageSize=50&page=0
+- https://api.finder.partners.aws.a2z.com/search?locale=en&size=20&from=0
+- https://app.hubspot.com/api/chirp-frontend-external/v1/gateway/com.hubspot.marketplace.personalization.rpc.PersonalizationPublicRpc/search?hs_static_app=marketplace-storefront-public-ui&hs_static_app_version=1.13519
 - https://azuremarketplace.microsoft.com/
 - https://govramp.org/program-participants
 - https://peppol.org/members/peppol-certified-service-providers/
 - https://raw.githubusercontent.com/18F/fedramp-data/4b73d9247fd6360759960e4690e3ce4ca858e0fa/data/data.json
 - https://registry.financialdataexchange.org/
 - https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-15/suppliers
+- https://www.databricks.com/en-partners-assets/data/partner/all/en.json
 - https://www.impots.gouv.fr/je-consulte-la-liste-des-plateformes-agreees
+- https://www.snowflake.com/content/snowflake-site/global/en/why-snowflake/partners/all-partners/_jcr_content/root/responsivegrid/container/container/filterable_resources.filter.json?offset=0
 - https://www.streamlinedsalestax.org/certified-service-providers/certified-service-providers-list
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 marketplace_apps: []
@@ -197,5 +202,186 @@ edges:
   category: Microsoft Teams app
   publisher_verified:
   - Microsoft 365 Certified
+- partner_name: AWS Partner Network (services)
+  partner: amazon-web-services
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://partners.amazonaws.com/partners/001E0000012d430IAA
+  category: Services partner
+  contract_reference:
+    register: AWS Partner Solutions Finder (api.finder.partners.aws.a2z.com/search)
+    spec_file: null
+    standard: AWS Partner Network (services path)
+    role: aws-services-partner
+    registered_name: PricewaterhouseCoopers
+    register_id: 001E0000012d430IAA
+    partner_tier: Premier
+    matched_domain: pwc.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    partner_paths:
+    - path_name: Services Path
+      path_tier: Premier
+      path_stage: Differentiated
+    - path_name: Software Path
+      path_tier: null
+      path_stage: Differentiated
+    context:
+      service_deliveries: 7
+      professional_service_types:
+      - Cloud Migration Services
+      - Custom Application Development
+      - Digital Marketing
+      - Strategic / IT Consulting
+      - Systems Integration
+      - Other
+      - Assessments
+      programs:
+      - Authorized Commercial Reseller
+      - AWS Solution Provider Program
+      - AWS Public Sector Solution Provider
+      - AWS Well-Architected Partner Program
+      hq_country: Canada
+    certified_products:
+    - product: AI Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Advertising and Marketing Technology  Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Amazon Connect Customer
+      type: AWS Competency
+      lapsed: false
+    - product: Data Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: DevOps Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Digital Sovereignty Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Digital Workplace Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Financial Services Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Healthcare Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Life Sciences Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: MSSP Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Mainframe Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Media & Entertainment Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Microsoft Workloads Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Migration and Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Resilience Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: SAP Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Security Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Supply Chain Services Competency
+      type: AWS Competency
+      lapsed: false
+  detected_by: sweep-professional-services.py
+  first_seen: '2026-10-19'
+- partner_name: Salesforce Consulting Partner Program
+  partner: salesforce
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000003JBXPEA4
+  category: Services partner
+  contract_reference:
+    register: Salesforce AppExchange consultants (recommendations/v3 listings type=consultants)
+    spec_file: null
+    standard: Salesforce consulting partner (AppExchange)
+    role: salesforce-consulting-partner
+    registered_name: PwC
+    register_id: a0N30000003JBXPEA4
+    partner_tier: Summit
+    matched_domain: pwc.com
+    matched_by: domain+verified
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    certified_products:
+    - product: Consumer Goods (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Financial Services (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Healthcare and Life Sciences (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: High Tech (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Manufacturing (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Professional Services (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Retail (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Agentforce (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Commerce (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Marketing (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Sales (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Service (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Analytics (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Data 360 (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Platform (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    other_listings:
+    - PwC (a0N30000003JBXPEA4)
+  detected_by: sweep-professional-services.py
+  first_seen: '2026-10-19'
 source:
 - guidewire/integrations/guidewire-integration-edges.yml
