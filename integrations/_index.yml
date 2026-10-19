@@ -124,3 +124,186 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: pricewaterhousecoopers-aws-partner-network-services
+  label: AWS Partner Network (services)
+  partner: amazon-web-services
+  partner_name: AWS Partner Network (services)
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://partners.amazonaws.com/partners/001E0000012d430IAA
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: AWS Partner Solutions Finder (api.finder.partners.aws.a2z.com/search)
+    spec_file: null
+    standard: AWS Partner Network (services path)
+    role: aws-services-partner
+    registered_name: PricewaterhouseCoopers
+    register_id: 001E0000012d430IAA
+    partner_tier: Premier
+    matched_domain: pwc.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    partner_paths:
+    - path_name: Services Path
+      path_tier: Premier
+      path_stage: Differentiated
+    - path_name: Software Path
+      path_tier: null
+      path_stage: Differentiated
+    context:
+      service_deliveries: 7
+      professional_service_types:
+      - Cloud Migration Services
+      - Custom Application Development
+      - Digital Marketing
+      - Strategic / IT Consulting
+      - Systems Integration
+      - Other
+      - Assessments
+      programs:
+      - Authorized Commercial Reseller
+      - AWS Solution Provider Program
+      - AWS Public Sector Solution Provider
+      - AWS Well-Architected Partner Program
+      hq_country: Canada
+    certified_products:
+    - product: AI Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Advertising and Marketing Technology  Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Amazon Connect Customer
+      type: AWS Competency
+      lapsed: false
+    - product: Data Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: DevOps Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Digital Sovereignty Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Digital Workplace Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Financial Services Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Healthcare Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Life Sciences Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: MSSP Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Mainframe Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Media & Entertainment Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Microsoft Workloads Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Migration and Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Resilience Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: SAP Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Security Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Supply Chain Services Competency
+      type: AWS Competency
+      lapsed: false
+  status: not-a-workflow
+  arazzo: null
+- slug: pricewaterhousecoopers-salesforce-consulting-partner-program
+  label: Salesforce Consulting Partner Program
+  partner: salesforce
+  partner_name: Salesforce Consulting Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000003JBXPEA4
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Salesforce AppExchange consultants (recommendations/v3 listings type=consultants)
+    spec_file: null
+    standard: Salesforce consulting partner (AppExchange)
+    role: salesforce-consulting-partner
+    registered_name: PwC
+    register_id: a0N30000003JBXPEA4
+    partner_tier: Summit
+    matched_domain: pwc.com
+    matched_by: domain+verified
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    certified_products:
+    - product: Consumer Goods (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Financial Services (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Healthcare and Life Sciences (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: High Tech (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Manufacturing (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Professional Services (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Retail (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Agentforce (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Commerce (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Marketing (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Sales (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Service (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Analytics (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Data 360 (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Platform (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    other_listings:
+    - PwC (a0N30000003JBXPEA4)
+  status: not-a-workflow
+  arazzo: null
