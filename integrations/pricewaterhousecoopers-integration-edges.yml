@@ -17,6 +17,10 @@ checked:
 - https://www.streamlinedsalestax.org/certified-service-providers/certified-service-providers-list
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - workday/integrations/workday-integration-edges.yml
+- https://iasme.co.uk/cyber-essentials/ncsc-certificate-search/
+- https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/suppliers
+- https://www.crowncommercial.gov.uk/agreements
+- https://www.ncsc.gov.uk/cyberessentials/search
 marketplace_apps: []
 edges:
 - partner_name: AWS Partner Network (services)
@@ -424,5 +428,30 @@ edges:
   seller_name: Pricewaterhousecoopers LLP
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: UK G-Cloud 14 (Digital Marketplace)
+  partner: null
+  partner_match: register
+  type: marketplace
+  marketplace: g-cloud
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/supplier/92454
+  category: UK public-sector procurement framework
+  contract_reference:
+    register: UK G-Cloud 14 supplier list (Digital Marketplace)
+    spec_file: null
+    role: g-cloud-supplier
+    registered_name: PRICEWATERHOUSECOOPERS LLP
+    register_id: '92454'
+    matched_domain: pwc.com
+    matched_by: domain
+    domain_source: contact-email
+    signal_note: a framework award is distribution (selling to the public sector), not an integration; kept out
+      of position shares
+    detected_by: sweep-uk-g-cloud-suppliers.py
+    detected: '2026-10-21'
+  detected_by: sweep-uk-g-cloud-suppliers.py
+  first_seen: '2026-10-21'
 source:
 - guidewire/integrations/guidewire-integration-edges.yml
